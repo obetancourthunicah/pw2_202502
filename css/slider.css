@@ -1,0 +1,31 @@
+#home {
+    position: relative;
+    width:100vw;
+    height: 80vh;
+    overflow: hidden;
+}
+.hero-track {
+    display:flex;
+}
+
+.hero-track section {
+    flex: 0 0 100%;
+    position: relative;
+    width:100vw;
+    height: 80vh;
+}
+
+.hero-track section img {
+    width:100vw;
+    height: 80vh;
+    object-fit: cover;
+}
+
+.hero-track section div {
+    position: absolute;
+    padding:2rem;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #000;
+}

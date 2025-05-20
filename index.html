@@ -6,13 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/styles.css" />
+    <script>
+        // DOM Document Object Model
+        document.addEventListener("DOMContentLoaded", ()=>{
+            let brandImage = document.getElementsByClassName('brand-image')[0];
+            brandImage.addEventListener("click", (e)=>{
+                alert("Click on Brand Image");
+            });
+            // let brandImg = document.getElementById("imgBrand");
+        });
+    </script>
 </head>
 
 <body>
     
     <header>
         <div class="brand">
-            <img class="brand-image" src="https://picsum.photos/id/5/64/64">
+            <img id="imgBrand" class="brand-image" src="https://picsum.photos/id/5/64/64">
             <h1>Landing Page Template</h1>
         </div>
         <div class="search">
@@ -31,7 +41,6 @@
         </nav>
     </header>
     <main>
-        <!--
         <section id="home">
             <div class="hero-track">
                 <section>
@@ -66,6 +75,7 @@
                 </section>
             </div>
         </section>
+        <!--
         <section id="products">
             <div class="card">
                 <div class="header">

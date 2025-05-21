@@ -6,6 +6,7 @@
 }
 .hero-track {
     display:flex;
+    transition: transform 0.756s ease;
 }
 
 .hero-track section {
